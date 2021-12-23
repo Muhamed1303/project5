@@ -462,6 +462,14 @@ form .subbtn input[type='submit']:hover{
     margin-bottom: -120px;
 }
 
+img{
+    transition: 0.6s;
+}
+
+.card-item:hover img{
+    transform: scale(1.03);
+}
+
 .services .cards .card-item .card{
     width: 380px;
     background-color: white;
